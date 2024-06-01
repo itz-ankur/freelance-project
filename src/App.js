@@ -7,13 +7,13 @@ function App() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6">
-            My Material-UI Ankur project
+            My Material-UI Ankur freelance
           </Typography>
         </Toolbar>
       </AppBar>
       <main style={{ padding: '16px' }}>
         <Typography variant="h4" gutterBottom>
-          Welcome to My Material-UI App
+          Welcome to My Material-UI App project
         </Typography>
         <Button variant="contained" color="primary">
           Click Me
