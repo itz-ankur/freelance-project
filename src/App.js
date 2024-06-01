@@ -1,29 +1,4 @@
-/*import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;*/
-import React from 'react';
+import * as React from 'react';
 import { Button, AppBar, Toolbar, Typography } from '@mui/material';
 
 function App() {
@@ -32,7 +7,7 @@ function App() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6">
-            My Material-UI App
+            My Material-UI Ankur project
           </Typography>
         </Toolbar>
       </AppBar>
@@ -49,5 +24,30 @@ function App() {
 }
 
 export default App;
+
+/*import * as React from 'react';
+import Button from '@mui/material/Button';
+
+export default function ButtonUsage() {
+  return <Button variant="outlined">Hello world</Button>;
+  
+}
+
+import * as React from 'react';
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
+
+
+export default function ImageAvatars() {
+  return (
+    <Stack direction="row" spacing={2}>
+      <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+      <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+      <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+    </Stack>
+  );
+}*/
+
+
 
 
